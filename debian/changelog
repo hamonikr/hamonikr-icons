@@ -1,9 +1,14 @@
+hamonikr-icons (3.0.2) hanla; urgency=medium
+
+  * Add mouse cursor-theme
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 23 Sep 2021 13:41:13 +0900
+
 hamonikr-icons (3.0.1) public; urgency=medium
 
   * Delete /usr/share/icons/HamoniKR/apps/scalable/xpad.svg
 
  -- HamoniKR <pkg@hamonikr.org>  Wed, 28 Apr 2021 18:16:20 +0900
-
 
 hamonikr-icons (3.0.0) public; urgency=medium
 
