@@ -1,3 +1,10 @@
+hamonikr-icons (3.0.3) hanla; urgency=medium
+
+  * Remove Telegram status icon (tray icon)
+    - use default telegram-desktop status icon
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 29 Sep 2021 15:11:56 +0900
+
 hamonikr-icons (3.0.2) hanla; urgency=medium
 
   * Add mouse cursor-theme
