@@ -1,6 +1,32 @@
 #!/bin/sh
 
-for l in `find ../usr -type l -xtype l`; do
+# Copyright HamoniKR Team. All rights reserved.
+# See LICENSE in the project root for license information.
+#
+# 깨진 심볼릭 링크를 찾아서 삭제하는 스크립트
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+echo "Check broken symbolic link.Please wait a while..."
+
+for l in `find ../usr -type l ! -exec test -e {} \; -print`; do
+	echo -n "${RED}"
 	echo "$l -> `readlink -nq "$l"`"
+	echo -n "${NC}"	
 done
 
+# ACT
+while true; do
+    read -p "Do you wish to remove all broken symbolic link? (Y/N) " yn
+    case $yn in
+        [Yy]* ) 
+			echo "Remove broken symbolic link..."
+			for l in `find ../usr -type l ! -exec test -e {} \; -print`; do
+				rm -fv $l 
+			done ;
+			break;;
+        [Nn]* ) exit;;
+        * ) exit;;
+    esac
+done

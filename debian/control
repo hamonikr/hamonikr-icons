@@ -11,6 +11,6 @@ Standards-Version: 4.3.0
 Package: hamonikr-icons
 Architecture: all
 Depends: ${misc:Depends}
-Replaces: hamonikr-jin-icon-theme
+Replaces: hamonikr-jin-icon-theme, cinnamon-common
 Description: HamoniKR Icon Theme
  This package include the HamoniKR icon theme. 
