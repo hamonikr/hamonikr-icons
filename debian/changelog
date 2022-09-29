@@ -1,3 +1,13 @@
+hamonikr-icons (3.0.4) jammy; urgency=medium
+
+  * Replace blueman icon 
+    - for ubuntu 22.04 env - #1
+
+  * Add useful script for icon works
+    - Added scrips folder
+
+ -- HamoniKR <pkg@hamonikr.org>  Thu, 29 Sep 2022 10:50:49 +0900
+
 hamonikr-icons (3.0.3) hanla; urgency=medium
 
   * Remove Telegram status icon (tray icon)

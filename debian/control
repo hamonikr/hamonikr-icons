@@ -2,6 +2,7 @@ Source: hamonikr-icons
 Section: x11
 Priority: optional
 Maintainer: HamoniKR <pkg@hamonikr.org>
+Homepage: https://github.com/hamonikr/hamonikr5.0-hamonikr-icons
 Build-Depends: debhelper (>= 11)
 Vcs-Git: https://github.com/hamonikr/hamonikr5.0-hamonikr-icons
 Vcs-Browser: https://github.com/hamonikr/hamonikr5.0-hamonikr-icons
