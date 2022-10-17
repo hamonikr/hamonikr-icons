@@ -1,3 +1,10 @@
+hamonikr-icons (3.0.6) jammy; urgency=medium
+
+  * Add distributor-logo icon
+    - Use for ubiquity installer
+
+ -- HamoniKR <pkg@hamonikr.org>  Mon, 17 Oct 2022 17:20:21 +0900
+
 hamonikr-icons (3.0.5) jammy; urgency=medium
 
   * Removed broken symbolic link
