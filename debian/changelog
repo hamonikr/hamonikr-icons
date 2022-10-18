@@ -1,3 +1,10 @@
+hamonikr-icons (3.0.7) jammy; urgency=medium
+
+  * Fix cursor thumbnails preview
+   - This preview is managed by /usr/share/cinnamon/thumbnails/cursor
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 18 Oct 2022 15:33:26 +0900
+
 hamonikr-icons (3.0.6) jammy; urgency=medium
 
   * Add distributor-logo icon
