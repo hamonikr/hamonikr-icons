@@ -1,3 +1,9 @@
+hamonikr-icons (3.0.9) stable; urgency=medium
+
+  * Release for debian 11 i386
+
+ -- HamoniKR <pkg@hamonikr.org>  Wed, 07 Dec 2022 20:49:32 +0900
+
 hamonikr-icons (3.0.8) jammy; urgency=medium
 
   * Change default cursor
