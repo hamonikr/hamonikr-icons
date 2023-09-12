@@ -1,3 +1,10 @@
+hamonikr-icons (3.1.0) stable; urgency=medium
+
+  * Removed gprename icon
+   - usr/share/icons/HamoniKR/apps/scalable/gprename.svg
+
+ -- HamoniKR <pkg@hamonikr.org>  Tue, 12 Sep 2023 12:36:12 +0900
+
 hamonikr-icons (3.0.9) stable; urgency=medium
 
   * Release for debian 11 i386
